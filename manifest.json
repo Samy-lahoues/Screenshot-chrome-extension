@@ -1,0 +1,21 @@
+{
+    "name" : "ScreenShot",
+    "description" : "capture screen of the current webpage",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "permissions" : ["tabs", 
+                    "activeTab",
+                    "scripting",
+                    "downloads"],
+    "host_permissions" : ["<all_urls>"],
+    "icons" : {
+        "16" : "icons/placeholder_16x16.png",
+        "48" : "icons/placeholder_48x48.png",
+        "128" : "icons/placeholder_128x128.png"
+    },
+    "action":{
+        "default_icon" : "icons/placeholder_16x16.png",
+        "default_title" : "ScreenShot",
+        "default_popup" : "popup.html"
+    }
+}
